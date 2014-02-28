@@ -1,0 +1,100 @@
+p{
+	color:red;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+#header{
+	height:200px;
+	width:500px;
+	padding:10px;
+	border-radius: 10px;padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: silver;
+	border-radius: 10px;	
+}
+
+#footer{
+	background-color: gray;
+	border-radius: 10px;
+	padding:10px;
+	height:100%;
+	width:500px;
+}
+
+
+#aside{
+	height:300%;
+	width:100%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color:gray;
+	border-radius: 10px;
+}
+
+#article_group{
+	width: 70%;
+}
+
+.article{
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height:200%;
+	background-color:silver;
+	border-radius: 10px;
+}
+
+.article_header {
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.article_image{
+width: 200px;
+	height: 200px;
+	float:left;
+	border:1px dotted black;
+	margin:0px 15px 0px 0px;
+}
+
+.section{
+	height:100%;
+	width:50%;
+	text-align: center;
+	background-color:green;
+	border-radius: 10px;	
+}
+
+#content{
+	height:200px;
+	width:800px;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.clear_both{
+	clear:both;
+}
+html{
+	display: table;
+	margin:auto;
+}
+
+
